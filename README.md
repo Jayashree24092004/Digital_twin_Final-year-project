@@ -37,7 +37,7 @@ digital-twin-astronaut/
 
 Clone the repository
 
-bashgit clone https://github.com/your-username/digital-twin-astronaut.git
+bashgit clone(https://github.com/Jayashree24092004/Digital_twin_Final-year-project)
 cd digital-twin-astronaut
 
 Install dependencies
