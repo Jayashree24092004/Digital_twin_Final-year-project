@@ -183,20 +183,18 @@ The project uses Python and widely used data science libraries.
 ## 📁 Project Structure
 
 ```text
-Digital_twin_Final-year-project/
+Digital twin_final year/
 │
 ├── main.py
-├── requirements.txt
 ├── README.md
+├── requirements.txt
 │
-└── outputs/
-    ├── health_degradation.png
-    ├── radiation_cognitive.png
-    ├── anomaly_detection.png
-    ├── feature_importance.png
-    ├── scenario_comparison.png
-    ├── health_radar.png
-    └── intervention_heatmap.png
+├── anomaly_detection.png
+├── feature_importance.png
+├── health_degradation.png
+├── health_radar.png
+├── radiation_cognitive.png
+└── scenario_comparison.png
 ```
 
 **File descriptions**
@@ -246,9 +244,6 @@ If your main Python file is named `main.py`, run:
 python main.py
 ```
 
-The script should execute the data generation, model training, anomaly detection, intervention comparison, and visualization steps implemented in the source code.
-
-**Important:** The entry-point command must match the actual filename in your repository. If your script is named `digital_twin.py` instead, use `python digital_twin.py`.
 
 ---
 
@@ -256,15 +251,19 @@ The script should execute the data generation, model training, anomaly detection
 
 When the corresponding functionality is implemented, the project produces visualizations that help explain the results.
 
+## 📊 Output Visualizations
+
+The project includes the following visualizations to help understand simulated astronaut health trends and evaluate different aspects of the Digital Twin framework.
+
 | Output | What it shows |
 |---|---|
-| `health_degradation.png` | Changes in simulated health parameters over time |
-| `radiation_cognitive.png` | Relationship between simulated radiation exposure and cognitive score |
-| `anomaly_detection.png` | Observations flagged as unusual by the anomaly detection model |
-| `feature_importance.png` | Features most influential in the trained prediction model |
-| `scenario_comparison.png` | Differences between the simulated intervention plans |
-| `health_radar.png` | Overview of selected health parameters |
-| `intervention_heatmap.png` | Comparison of health outcomes across intervention scenarios |
+| `health_degradation.png` | Shows changes in simulated astronaut health parameters over time. |
+| `radiation_cognitive.png` | Illustrates the relationship between simulated radiation exposure and cognitive score. |
+| `anomaly_detection.png` | Highlights observations identified as unusual by the anomaly detection model. |
+| `feature_importance.png` | Shows which features are considered influential by the trained prediction model. |
+| `scenario_comparison.png` | Compares the simulated outcomes of different intervention plans. |
+| `health_radar.png` | Provides an overview of selected astronaut health parameters. |
+
 
 ---
 
