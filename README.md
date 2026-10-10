@@ -247,10 +247,6 @@ python main.py
 
 ---
 
-## 📊 Expected Outputs
-
-When the corresponding functionality is implemented, the project produces visualizations that help explain the results.
-
 ## 📊 Output Visualizations
 
 The project includes the following visualizations to help understand simulated astronaut health trends and evaluate different aspects of the Digital Twin framework.
